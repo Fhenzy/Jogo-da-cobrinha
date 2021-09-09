@@ -1,0 +1,31 @@
+canvas {
+    border: solid 5px limegreen;
+    border-radius: 20px;  
+}
+
+body {
+    background-image: url(../img/cobrinha-google.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.my-2{
+    color: limegreen;
+    background: black;
+    border: solid 5px limegreen;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: fantasy;
+    font-weight: normal;
+    padding: 8px;
+}
+
+
+@media (max-width: 600px){
+    
+        canvas {
+                width: 100vw;
+                height: 50%;
+        } 
+    }
